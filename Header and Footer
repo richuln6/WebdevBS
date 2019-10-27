@@ -1,0 +1,135 @@
+<html>
+<head>
+<link rel="icon" href="logo.png" />
+<title>Dayananda Sagar Academy Of Technology And Management</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<link href="stylesbs.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #005387; height:100;text-align:center;" align="center">
+<div id="top">
+<a href="#alumni">Alumni</a>
+<a href="#parents">Parents</a>
+<a href="#careers">Careers</a>
+</div>
+
+<h3>Dayananda Sagar Academy Of Technology And Management</h3></br>
+    <img src="pics/logo.png" width="auto" height="130" class="d-inline-block align-top-center" onclick="window.location.href='CollegeBS'" alt="" style="margin-top:0;background-color:white;border-radius:50%;width:8%;height:auto;border:1%solid#FFFF00;border-top:0;">
+    
+  
+</nav>
+
+
+<nav class="nav nav-pills flex-column flex-sm-row" style="background-color:#ffff00;">
+  <a class="flex-sm-fill text-sm-center nav-link active" href="#home"><img src="pice/home.png" alt="Home" style='width:25;height:25;'/></a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">About Us</a>
+  <a class="flex-sm-fill text-sm-center nav-link" href="#">Academics</a>
+<a class="flex-sm-fill text-sm-center nav-link" href="#">Admissions</a>
+<a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+<a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+ <a class="flex-sm-fill text-sm-center nav-link" href="#">Approvals</a>
+ 
+ <a class="flex-sm-fill text-sm-center nav-link" href="#">Research</a>
+ <a class="flex-sm-fill text-sm-center nav-link" href="#">Campus Life</a>
+<a class="flex-sm-fill text-sm-center nav-link" href="#">Library</a>
+ 
+</nav>
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold"><img src="pics/logo1.png"</h6>
+        <p style="color:white;"><br/><small>Dayananda Sagar Academy of Technology and Management (TC) is approved by All India Council for Technical Education (AICTE), Govt. of India and affiliated to Visvesvaraya Technological University.</small> </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-4 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Departments</h6>
+
+          <a href="#!">Bachelor of Architecture Civil Engineering</a><br/>
+<a href="#!">Computer Science Engineering</a><br/>
+<a href="#!">Electrical & Electronics Engineering</a><br/>
+    <a href="#!">Electronics and Communication Engineering</a><br/>
+    <a href="#!">Information Science & Engineering</a><br/>
+    <a href="#!">Mechanical Engineering</a><br/>
+    <a href="#!">Mathematics Department</a><br/>
+    <a href="#!">Physics Department</a>
+
+   
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-4 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Quick links</h6>
+<a href="#!">Contact Us</a> <br/>
+<a href="#!">Institution Policy</a><br/>
+<a href="#!">DSATM Service Rules</a><br/>
+<a href="#!">Mandatory Disclosure</a><br/>
+<a href="#!">Grievance Redressal portal</a><br/>
+<a href="#!">Accreditation & other approvals</a><br/>
+<a href="#!">Audited Statements</a><br/>
+<a href="#!">NIRF</a>
+     
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-auto col-xl-auto" >
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2019 Copyright:
+ 
+            <strong> Richul N. Prasad [1DT16IS080] Sumanth R. [1DT16IS100</strong>
+ &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+
+           <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+        </p>
+ 
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
