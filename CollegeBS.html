@@ -26,7 +26,7 @@
 
 
 <nav class="nav nav-pills flex-column flex-sm-row sticky-top" style="background-color:#ffff00;">
-  <a class="flex-sm-fill text-sm-center nav-link active" href="#home"><img src="pics/home.png" alt="Home" style='width:25;height:25;'/></a>
+  <a class="flex-sm-fill text-sm-center nav-link active" onclick="smoothScroll(#home)"><img src="pics/home.png" alt="Home" style='width:25;height:25;'/></a>
   <a class="flex-sm-fill text-sm-center nav-link" href="#aboutus">About Us</a>
   <a class="flex-sm-fill text-sm-center nav-link" href="#academics">Academics</a>
 
@@ -42,7 +42,7 @@
  
 </nav>
 
-<a name="home"></a>
+<a id="home"></a>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -104,7 +104,7 @@
       <!--Text-->
       <p class="card-text">Aicte Approved</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href='pdfs/aicte.pdf'">Read more</button>
 
     </div>
 
@@ -130,7 +130,7 @@
       <!--Text-->
       <p class="card-text">Affiliated to VTU</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href='pdfs/vtu.pdf'">Read more</button>
 
     </div>
 
@@ -156,7 +156,7 @@
       <!--Text-->
       <p class="card-text">Accredited by NBA</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href='pdfs/nba.pdf'">Read more</button>
 
     </div>
 
@@ -181,7 +181,7 @@
       <!--Text-->
       <p class="card-text">Approved by UGC</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+      <button type="button" class="btn btn-light-blue btn-md" onclick="window.location.href='pdfs/ugc.pdf'">Read more</button>
 
     </div>
 
