@@ -44,6 +44,12 @@ color:black;
 .navbar img:hover{
 transform:scale(1.1);
 }
+.nav img:hover{
+transform:scale(1.2);
+}
+.nav{
+z-index:5;
+}
 .nav a{
 color:#204969;
 font-size:17;
@@ -149,7 +155,11 @@ box-shadow: 0 15px 20px 0 rgba(0,0,0,0.9);
 }
 #scale:hover{
 transform:scale(1.18);}
-
+#scale1:hover{
+color:#ffffff; 
+text-decoration:none; 
+cursor:pointer;
+transform:scale(2);}
 #yellowread:hover{
 background-color:#005387;
 color:white;
