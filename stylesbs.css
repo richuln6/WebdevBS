@@ -1,3 +1,9 @@
+body{
+overflow-x:hidden;
+box-sizing: border-box;
+min-width: 100%;
+min-height: 100%;
+}
 .navbar{
 padding:auto;
 text-align:center;
@@ -93,6 +99,59 @@ width:1000;
   background: #125688;
   color: white;
 }
-.tab-1{
-	display:inline-block; width:ONE-TAB-WIDTH;
+#carouselExampleControls{
+height:500;}
+.card-title{
+margin-top:30;
+text-align:center;
+color:#005387;
+overflow-y:hidden;
+font-family:'Oswald',sans-serif;
 }
+
+.card-deck{margin-top:10;
+text-align:center;
+
+font-family:'Oswald',sans-serif;
+overflow:hidden;
+}
+
+.card-img-top{
+
+height:250;
+width:auto;}
+
+.card-body{
+background-color:#d7eaea;
+text-align:center;
+}
+.btn{
+background-color:#005387;
+color:white;
+font-family:'Oswald',sans-serif;
+}
+.btn:hover{
+background-color:#ffff00;
+color:#010101;
+}
+.card{
+margin-bottom:10;
+}
+.view{
+width:100%;
+}
+
+.container{
+width:auto;
+}
+#hover:hover{
+box-shadow: 0 15px 20px 0 rgba(0,0,0,0.9);
+}
+#scale:hover{
+transform:scale(1.18);}
+
+#yellowread:hover{
+background-color:#005387;
+color:white;
+}
+
