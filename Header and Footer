@@ -13,35 +13,34 @@
 <body class="overflow-x-hidden">
 <nav class="navbar navbar-light sticky" style="background-color: #005387; height:100;text-align:center;" align="center">
 <div id="top">
-<a href="#alumni">Alumni</a>
-<a href="#parents">Parents</a>
-<a href="#careers">Careers</a>
+<a href="alumni.html">Alumni</a>
+<a href="parents.html">Parents</a>
+<a href="careers.html">Careers</a>
 </div>
 
 <h3>Dayananda Sagar Academy Of Technology And Management</h3></br>
-    <img src="pics/logo.png" width="auto" height="130" class="d-inline-block align-top-center" onclick="window.location.href='CollegeBS.html'" alt="" style="margin-top:0;background-color:white;border-radius:50%;width:8%;height:auto;border:1%solid#FFFF00;border-top:0;">
+    <img src="pics/logo.png" width="auto" height="130" class="d-inline-block align-top-center" onclick="window.location.href='CollegeBS.html'" alt="" style="margin-top:0;background-color:white;border-radius:50%;width:135;height:auto;border:1%solid#FFFF00;border-top:0;">
     
   
 </nav>
 
 
 <nav class="nav nav-pills flex-column flex-sm-row sticky-top" style="background-color:#ffff00;">
-  <a class="flex-sm-fill text-sm-center nav-link active" href="#home"><img src="pics/home.png" alt="Home" style='width:25;height:25;'/></a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="#aboutus">About Us</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="#academics">Academics</a>
+  <a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='CollegeBS.html'"><img src="pics/home.png" alt="Home" style='width:25;height:25;'/></a>
+  <a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='aboutus.html'">About Us</a>
+  <a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='academics.html'">Academics</a>
 
-<a class="flex-sm-fill text-sm-center nav-link" href="#approvals">Approvals</a>
+<a class="flex-sm-fill text-sm-center nav-link " onclick="window.location.href='approvals.html'">Approvals</a>
 <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<img src="pics/logo.png" class="d-inline-block align-center" width="45" height="45" onclick="window.location.href='CollegeBS.html'" alt="" style="background-color:#005387;border-radius:50%;" />
 <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
  
-  <a class="flex-sm-fill text-sm-center nav-link" href="#campuslife">Campus Life</a>
- <a class="flex-sm-fill text-sm-center nav-link" href="#research">Research</a>
-<a class="flex-sm-fill text-sm-center nav-link" href="#library">Library</a>
-<a class="flex-sm-fill text-sm-center nav-link" href="#academics">Admissions</a>
+  <a class="flex-sm-fill text-sm-center nav-link " onclick="window.location.href='campuslife.html'">Campus Life</a>
+ <a class="flex-sm-fill text-sm-center nav-link " onclick="window.location.href='research.html'">Research</a>
+<a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='library.html'">Library</a>
+<a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='admissions.html'">Admissions</a>
  
 </nav>
-
 
 
 <!-- Footer -->

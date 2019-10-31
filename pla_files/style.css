@@ -1,0 +1,441 @@
+/********* Approvals *******/
+.app-block{
+	background: aliceblue;
+}
+.app-block h3{
+	color: #000;
+	font-weight: bold;
+	border-bottom: 1px  dotted;
+}
+.app-block ul.app-links li{
+	list-style-image: url(https://dsce.edu.in/images/bullet.png);
+    padding: 5px;
+}
+.app-block ul.app-links li a{
+	color: #000;
+}
+.app-block ul.app-links li a:hover{
+  	color: #1b6ea2;
+}
+/********* Approvals Ends *******/
+
+/**********marquee in aprovals*****/
+/****************************/
+.ticker{
+background-color:#f1f1f1;
+overflow:hidden;
+white-space: nowrap;
+font-size:14px;
+font-weight:500;
+margin: 8px 0 0;
+width:40%;
+border-bottom:4px groove #f3e9e9;
+border-radius:15px; 
+}
+.ticker a {
+color:#6b5b5b !important;
+}
+
+.mar
+{
+  padding: 4px 0;
+  height:20px;
+  line-height:20px;
+  animation-name: mara;
+  position:relative;
+ -webkit-animation:mara  15s linear infinite;
+  animation: mara  15s linear infinite;
+}
+
+@keyframes mara {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.mar:hover
+{
+   -webkit-animation-play-state: paused; 
+    animation-play-state: paused;
+  }
+/*******ENDS marquee in aprovals**********/
+
+
+
+body, html {
+	height: 100%;
+}
+.left-menu {
+	font-size: 12px!important;
+	color: #2e2d29 !important;
+}
+.left-menu .navbar-nav > .hover > a {
+	background: none !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #2e2d29 !important;
+}
+.navbar-nav > li > a:hover {
+	background: none !important;
+	border-bottom: 2px solid #2e2d29;
+	color: #696969 !important;
+}
+.main {
+	font-size: 16px !important;
+}
+.navbar {
+	position: relative;
+	min-height: 0px !important;
+	/*margin-bottom:20px;*/
+
+
+
+	border: 1px solid transparent;
+}
+.navbar-header {
+	min-height: 35px;
+}
+.top-sto {
+	padding: 0px !important;
+}
+ @media (max-width: 991px) {
+.top-sto {
+	padding: 0px 30px !important;
+}
+}
+.btt {
+	padding: 10px 0px;
+}
+.wk-content ul {
+	padding-left: 0px !important;
+	line-height: 25px;
+}
+.wk-content ul li {
+	color: #6c6c6c;
+	padding-left: 20px;
+	background: url("../images/Left.png") no-repeat scroll 0px 8px rgba(0, 0, 0, 0);
+	padding-bottom: 10px;
+	list-style: none;
+}
+/*ul li {line-height: 30px;}*/
+
+
+
+
+
+
+
+.top-sto ul {
+	padding-left: 0px !important;
+	line-height: 25px;
+}
+.top-sto ul li {
+	color: #6c6c6c;
+	padding-left: 20px;
+	background: url("../images/Left.png") no-repeat scroll 0px 7px rgba(0, 0, 0, 0);
+	padding-bottom: 10px;
+	list-style: none;
+}
+.get-started1 {
+	border-radius: 3px;
+	padding-bottom: 30px;
+	position: relative;
+	margin-bottom: 18px;
+	margin-top: 60px;
+}
+.left {
+	padding: 0px 10px;
+}
+.socil {
+ padding: 30px 0px !;
+}
+.lefts {
+	text-align: left !important;
+}
+.border {
+	border-bottom: 1px solid #d5d0c0;
+}
+.top-sto1 ul li {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.media ul li a {
+	color: #4e4e4e !important;
+}
+.media ul li a:hover, a:focus {
+	font-weight: 600;
+}
+.content p {
+	font-size: 15px !important;
+}
+.content h2 {
+	font-size: 30px !important;
+	color: #005387 !important;
+}
+.basic-modal-content h3 {
+	color: #005387 !important;
+}
+.left-pad {
+	padding-left: 56px;
+}
+.padding {
+	margin-top: 25px;/*	border-radius:15px !important;*/
+
+
+
+}
+.h3mar {
+	margin-top: -5px;
+}
+.inn p {
+	font-size: 1.42857em !important;
+	line-height: 1.4 !important;
+	font-weight: 300 !important;
+	color: #696969 !important;
+}
+.marg {
+	margin-bottom: 50px;
+}
+.inner_bot {
+	margin-top: 20px;
+}
+.wk-accordion .toggler {
+	background-color: #020202 !important;
+	color: #e3dfd5;
+}
+.wk-accordion-default .toggler {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #005387 0%, #005387 100%) repeat scroll 0 0 !important;
+	border: 0px solid #ddd !important;
+	border-radius: 0px !important;
+	box-shadow: 0 0px 0 #fff inset !important;
+	margin-bottom: 10px;
+	padding: 7px;
+	text-shadow: 0 0px 0 #fff !important;
+}
+.dsce_table {
+	color: #6c6c6c;
+	margin: 20px 13px 20px 0px;
+	border: #080808 solid 1px;
+	line-height: 28px;
+}
+.dsce_table td {
+	padding: 6px;
+	border: #393939 solid 1px;
+}
+.dsce_tr {
+	background-color: #005387;
+	color: #FFF;
+	font-weight: bold;
+	border: #FFF solid 1px !important;
+	text-align: center !important;
+}
+.dsce_table ul {
+	padding-left: 0px !important;
+}
+.dsce_table ul li {
+	line-height: 25px;
+	padding-left: 20px;
+	background: url("../images/icons/arrow_1.png") no-repeat scroll 0px 8px rgba(0, 0, 0, 0);
+	list-style: none;
+}
+.dsce_tr {
+	background-color: #d6d0c0;
+	color: #393939;
+	font-weight: bold;
+	border: #000 solid 1px !important;
+	text-align: center !important;
+}
+.dsce_tr td {
+	border: #000 solid 1px !important;
+}
+.sectionss {
+	padding: 40px 0px 0px 0px !important;
+}
+.pdding {
+	margin: 30px 0px;
+}
+.just {
+	text-align: justify;
+}
+.js-marquee-wrapper {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.read-more {
+	background: #005387;
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+	margin: 1px 5px 2px 2px;
+	padding: 0 8px 1px 8px;
+	text-align: center;
+	-webkit-transition: background-color 0.12s ease-out;
+	-moz-transition: background-color 0.12s ease-out;
+	-ms-transition: background-color 0.12s ease-out;
+	-o-transition: background-color 0.12s ease-out;
+	transition: background-color 0.12s ease-out;
+}
+.col-md-6 {
+	margin-bottom: 10px;
+}
+.dsce-band {
+	background-color: #080B15;
+	color: #fff;
+	padding: 10px;
+}
+.dsce_table tr:hover {
+	background-color: #C7C5BD !important;
+	color: #FFF !important;
+}
+.dsce_table tr td a:hover {
+	color: #FFF !important;
+}
+.cs-fac {
+	max-height: 450px;
+	overflow-y: auto;
+}
+.founder {
+	float: left;
+	padding: 0px 12px 8px 0px;
+}
+ul.sigFreeClassic li.sigFreeThumb {
+	padding: 6px !important;
+}
+.fancybox-opened .fancybox-title {
+	visibility: hidden !important;
+}
+.slides li {
+	background-image: none !important;
+}
+.btn1 {
+	padding-bottom: 7px !important;
+}
+.fach3 {
+	font-size: 25px !important;
+	font-size: 25px !important;
+	background-color: rgb(24, 115, 161);
+	border: 2px solid #5C7DA9;
+	padding: 10px;
+	border-radius: 6px;
+	color: #fff;
+}
+.fach3 a {
+	color: #fff !important;
+}
+.facimg {
+	border-radius: 6px;
+}
+.socil img {
+	height: 25px !important;
+}
+.socil li a {
+	background: none !important;
+	display: inline-table !important;
+}
+.socil {
+ padding: 30px 0px !;
+}
+.content .toggler active {
+	background: #1f1f20 !important;
+}
+
+.read-mor {
+	background: #005387;
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+	margin: 1px 5px 2px 2px;
+	padding: 0 8px 1px 8px;
+	text-align: center;
+	-webkit-transition: background-color 0.12s ease-out;
+	-moz-transition: background-color 0.12s ease-out;
+	-ms-transition: background-color 0.12s ease-out;
+	-o-transition: background-color 0.12s ease-out;
+	transition: background-color 0.12s ease-out;
+}
+
+.go_back { color:#333; border:none; }
+
+.search .element-invisible { display:none !important; }
+.search .button {   margin:8px 0px -10px -4px; }
+
+
+.search .btn-toolbar { display:none; }
+.search .searchintro { display:none; }
+.search .phrases { display:none; }
+.search .only { display:none; }
+.pagination { display:none !important; } 
+
+.search .result-created { display:none !important; }
+.search .result-text { margin-bottom:20px !important; }
+.highlight { font-weight:bold; color:#930; }
+
+.logo_pad { padding-left:0px !important; }
+
+
+.alumni-slide {
+  
+  
+}
+.alumni-slide .wk-content img {
+  
+    min-width: initial !important;
+	  margin: 0% 25%;
+}
+
+.alumni-slide .wk-content h3 {
+    text-align: center;
+  font-weight: bold;
+  color: #005387;
+  margin: 0px;
+}
+.alumni-slide .wk-content p{
+   color: #fff;
+  
+}
+
+@media (max-width: 991px) {  
+   
+	/*.top { display:none !important; }*/
+  
+   table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+  
+  .dsi_table { 
+    border:none !important;
+  }
+}
+.details {
+  
+}
+.details li{
+  margin:10px 0px;
+  text-align:justify;
+}
+
+
+
+

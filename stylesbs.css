@@ -38,8 +38,8 @@ list-style-type: none;
 font-family: 'Oswald', sans-serif;
 }
 .navbar a:hover{
-  background-color:#ffff00;
-color:black;
+  background-color:darkblue;
+color:white;
 }
 .navbar img:hover{
 transform:scale(1.1);
@@ -76,6 +76,11 @@ list-style-type: none;
 color:#ffffff;
 background-color:#204969;
 }
+.page-footer a:hover{
+color:white;
+text-decoration:none;
+}
+
 .col-md-2{
 width:1000;
 
