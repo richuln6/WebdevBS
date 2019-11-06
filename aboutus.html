@@ -1,0 +1,388 @@
+<html>
+<head>
+<link rel="icon" href="pics/logo.png" />
+<title>About Us</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<link href="stylesbs.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+(function ($){
+  $.fn.counter = function() {
+    const $this = $(this),
+    numberFrom = parseInt($this.attr('data-from')),
+    numberTo = parseInt($this.attr('data-to')),
+    delta = numberTo - numberFrom,
+    deltaPositive = delta > 0 ? 1 : 0,
+    time = parseInt($this.attr('data-time')),
+    changeTime = 10;
+    
+    let currentNumber = numberFrom,
+    value = delta*changeTime/time;
+    var interval1;
+    const changeNumber = () => {
+      currentNumber += value;
+      //checks if currentNumber reached numberTo
+      (deltaPositive && currentNumber >= numberTo) || (!deltaPositive &&currentNumber<= numberTo) ? currentNumber=numberTo : currentNumber;
+      this.text(parseInt(currentNumber));
+      currentNumber == numberTo ? clearInterval(interval1) : currentNumber;  
+    }
+
+    interval1 = setInterval(changeNumber,changeTime);
+  }
+}(jQuery));
+
+$(document).ready(function(){
+
+  $('.count-up').counter();
+  $('.count1').counter();
+  $('.count2').counter();
+  $('.count3').counter();
+  
+  new WOW().init();
+  
+  setTimeout(function () {
+    $('.count5').counter();
+  }, 3000);
+});
+</script>
+</head>
+<body class="overflow-x-hidden">
+<nav class="navbar navbar-light sticky" style="background-color: #005387; height:100;text-align:center;" align="center">
+<div id="top">
+<a href="alumni.html">Alumni</a>
+<a href="parents.html">Parents</a>
+<a href="careers.html">Careers</a>
+</div>
+
+<h3>Dayananda Sagar Academy Of Technology And Management</h3></br>
+    <img src="pics/logo.png" width="auto" height="130" class="d-inline-block align-top-center" onclick="window.location.href='CollegeBS.html'" alt="" style="margin-top:0;background-color:white;border-radius:50%;width:135;height:auto;border:1%solid#FFFF00;border-top:0;">
+    
+  
+</nav>
+
+
+<nav class="nav nav-pills flex-column flex-sm-row sticky-top" style="background-color:#ffff00;">
+  <a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='CollegeBS.html'"><img src="pics/home.png" alt="Home" style='width:25;height:25;'/></a>
+  <a class="flex-sm-fill text-sm-center nav-link active" onclick="window.location.href='aboutus.html'">About Us</a>
+  <a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='academics.html'">Academics</a>
+
+<a class="flex-sm-fill text-sm-center nav-link " onclick="window.location.href='approvals.html'">Approvals</a>
+<a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<img src="pics/logo.png" class="d-inline-block align-center" width="45" height="45" onclick="window.location.href='CollegeBS.html'" alt="" style="background-color:#005387;border-radius:50%;" />
+<a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+ 
+  <a class="flex-sm-fill text-sm-center nav-link " onclick="window.location.href='campuslife.html'">Campus Life</a>
+ <a class="flex-sm-fill text-sm-center nav-link " onclick="window.location.href='research.html'">Research</a>
+<a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='library.html'">Library</a>
+<a class="flex-sm-fill text-sm-center nav-link" onclick="window.location.href='admissions.html'">Admissions</a>
+ 
+</nav>
+
+    
+    <div class="container-fluid mt-sm-0 mb-sm-0" style="margin-bottom: 0; background:url(pics/ab.jpg);background-repeat:no-repeat;background-size:cover;color:#ffffff;">
+      <br><br>
+      <h1 class="display-1" style="font-family: 'ZCOOL XiaoWei', serif; font-size: 4rem; color: #ffffff;margin-top: 2rem;"><center>WHO WE ARE....</center></h1>
+      <p class="display-6 px-sm-5" style="font-size: 1.5rem;">Dayananda Sagar Academy of Technology and Management (TC) is approved by All India Council for Technical Education (AICTE), Govt. of India and affiliated to Visvesvaraya Technological University. It has widest choice of Engineering Branches having 6 Under Graduate Courses, B. Architecture, MCA & MBA programs.</p>
+      
+     <div class="container my-5">
+
+
+ <div class="container my-5" >
+
+
+  <!--Section: Content-->
+  <section class="p-5 z-depth-1" >
+    
+    <h3 class="text-center font-weight-bold mb-5"></h3>
+
+    <div class="row mb-4 d-flex justify-content-center">
+
+      <div class="col-md-6 col-lg-3 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          
+          <span class="d-inline-block count-up" data-from="0" data-to="2011" data-time="2000">2011</span>
+        </h4>
+        <p class="font-weight-normal text" style="color:#ffffff">Established</p>
+      </div>
+
+      <div class="col-md-6 col-lg-3 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+         
+          <span class="d-inline-block count1" data-from="0" data-to="500" data-time="2000">500</span>
+        </h4>
+        <p class="font-weight-normal text">Staff</p>
+      </div>
+
+      <div class="col-md-6 col-lg-3 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+          
+          <span class="d-inline-block count2" data-from="0" data-to="10" data-time="2000">10</span>
+          Acres
+        </h4>
+        <p class="font-weight-normal text">Campus Area</p>
+      </div>
+      
+      <div class="col-md-6 col-lg-3 text-center">
+        <h4 class="h1 font-weight-normal mb-3">
+        
+          <span class="d-inline-block count3" data-from="0" data-to="100" data-time="2000">100</span>%
+        </h4>
+        <p class="font-weight-normal text">Wifi Equipped Campus</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!--Section: Content-->
+
+
+</div>
+  <!--Section: Content-->
+
+
+</div>
+  </div>
+
+
+<div>
+  <div style="font-family: 'ZCOOL XiaoWei', serif;font-size: 3rem;">
+      <center><b>VISION</b></center>
+  </div>
+  <br>
+  <div class="px-sm-3 pb-sm-2 mx-sm-4" style="font-size: 1.5rem;">To strive at creating the institution a center of highest caliber of learning, so as to create an overall intellectual atmosphere with each deriving strength from the other to be the best of engineers, scientists and mathematicians.
+  </div>
+</div>
+<hr>
+<div>
+  <div style="font-family: 'ZCOOL XiaoWei', serif;font-size: 3rem;">
+      <center><b>MISSION</b></center>
+  </div>
+  <br>
+  <div class="px-sm-3 pb-sm-2" style="font-size: 1.5rem;">
+      <ul class="mx-sm-4">
+        <li>To serve its region, state, the nation and globally by preparing students to make meaningful contributions in an increasing complex global society..</li>
+        <li>To encourage, reflection on and evaluation of emerging needs and priorities with state of art infrastructure.</li>
+        <li>To support research and services establishing enhancements in technical, health, economic, human and cultural development..</li>
+        <li>To establish inter disciplinary center of excellence.</li>
+        <li>To increase the number of Doctorate holders to promote research culture on campus.</li>
+      </ul>
+  </div>
+</div>
+<div style="background-color:#e9ecef">
+  <div style="font-family: 'ZCOOL XiaoWei', serif;font-size: 3rem;">
+      <center>OBJECTIVES & GOALS</center>
+  </div>
+  <br>
+  <div class="px-sm-3 pb-sm-2" style="font-size: 1.5rem;">
+      <ul class="mx-sm-4">
+        <li>Creating an academic environment to develop the younger generation and providing quality professional engineering education at an affordable cost.</li>
+        <li>Create necessary infrastructure on a continuous basis the professional education with the changing needs of society.</li>
+        <li>Optimum utilization of the infrastructure and resources to achieve excellence in the engineering courses.</li>
+        <li>Monitor continuously the growth in technology parts of the world and address all aspects of development of human resource (both from academic and supporting staff) and students to be in tune with state of the art technology and engineering practices.</li>
+        <li>Facilitate greater Industry, Institute, and Interaction so as to empower the students with practical knowledge.</li>
+        <li>Institute various quality assurance systems.</li>
+        <li>Adopting learning beyond curriculum process.</li>
+        <li>Initiate systems of learning which are based on enable students to acquire skills relevant to their career.</li>
+        <li>To continuous monitor, asses evaluate the various academic programs adopting outcome based education.</li>
+      </ul>
+  </div>
+</div>
+<hr style="margin-top: 0;margin-bottom: 0;">
+<div class="jumbotron" style="margin-bottom: 0;margin-top: 0;">
+  <h2 class="display-4" style="font-family: 'ZCOOL XiaoWei', serif;text-align: center;">HISTORY</h2>
+  <br>
+  <p class="lead mx-sm-3" style="text-align: justify;">One of the premier institutions of the country, DSI was established by MGVP Trust in 1963 by Late Sri R Dayananda sagar the founder. The institutions are now being nurtured by Dr. D Hemachandra Sagar and Dr. D. Premachandra Sagar the two eminent sons of the founder.The premier institute is now diversifying into state of art world class DAYANANDA SAGAR UNIVERSITY. The DSCE & DSATM are the two top institutions offering Technical education being affiliated to the Visvesvaraya Technological University (VTU) Belagavi, to the student community across the globe.</p>
+  <br>
+  <p class="mx-sm-3">DSATM was established in 2011 with Six branches of engineering and B.Arch, MBA, MCA programs.</p>
+  <a class="btn btn-primary btn-lg mx-sm-3" href="dsatm_history.html" role="button">Learn more</a>
+</div>
+<div class="pb-sm-5">
+<div class="container" style="margin-bottom: 0;margin-top: 0;" >
+      <br>
+      <h1 class="display-1" style="font-family: 'ZCOOL XiaoWei', serif; font-size: 4rem; color: #005387;"><center>OUR LEADERS</center></h1>
+</div>
+<div class="container " style="align-content: center;">
+
+      <div class="card-deck">
+      <!-- Card -->
+        <div class="card col-sm-5" id="hover" style="display: block; align-content: center; width: 120%;">
+          <!--Card image-->
+        <div class="view overlay pt-sm-3">
+          <img class="card-img-top" src="pics/chairman.jpg">
+        </div>
+        <div class="card-body px-sm-0 pb-sm-0">
+
+        <!--Title-->
+        <h5 style="margin-bottom: 0">Dr. D Hemachandra Sagar</h5>
+      </div>
+      <div class="card-body" style="padding: 2;">
+        <h6 class="card-title">Chairman</h6>
+        <p class="card-text pb-sm-2" style="font-size: 1rem;">Our Institutions are characterized by the quality of its education across a broad range of disciplines from school to post graduation. It is a seat of higher learning, with an international focus on all its activities and standards.</p>
+        </div>
+
+      </div>
+    
+
+
+<div class="card col-sm-5" id="hover" style="display: block;">
+          <!--Card image-->
+        <div class="view overlay pt-sm-3">
+          <img class="card-img-top" src="pics/vc.jpg">
+        </div>
+        <div class="card-body px-sm-0 pb-sm-0">
+
+        <!--Title-->
+        <h5 style="margin-bottom: 0">Dr. D Premachandra Sagar</h5>
+      </div>
+      <div class="card-body" style="padding: 2;">
+        <h6 class="card-title">Vice Chairman</h6>
+        <p class="card-text pb-sm-2" style="font-size: 1rem;">The Motto of Dayananda Sagar Institutions is “Education Completes a Man”. Our aim is to contribute to society at large and professional needs in particular, by people sharpened with skills and knowledge so that they shape out to be useful and responsible citizens of the country.</p>
+        </div>
+
+      </div>
+
+
+
+
+<div class="card col-sm-5" id="hover" style="display: block;">
+          <!--Card image-->
+        <div class="view overlay pt-sm-3">
+          <img class="card-img-top" src="pics/principal.jpg">
+        </div>
+        <div class="card-body px-sm-0 pb-sm-0">
+
+        <!--Title-->
+        <h5 style="margin-bottom: 0">Dr. B. R. Lakshmikantha</h5>
+      </div>
+      <div class="card-body" style="padding: 2;">
+        <h6 class="card-title">Principal</h6>
+        <p class="card-text" style="font-size: 1rem;padding: 0px;">Attaining excellence in education is the goal of Dayananda Sagar Academy of Technology & Management. Our culture encourages co-operation, team work and competitive spirit.</p>
+        </div>
+
+      </div>
+    
+
+<div class="card col-sm-4" id="hover" style="display: block; width: 120%;">
+          <!--Card image-->
+        <div class="view overlay pt-sm-3">
+          <img class="card-img-top" src="pics/dean-academics.jpg">
+        </div>
+        <div class="card-body px-sm-0 pb-sm-0">
+
+        <!--Title-->
+        <h5 style="margin-bottom: 0">Dr. Sumithra Devi K.A</h5>
+      </div>
+      <div class="card-body" style="padding: 2;">
+        <h6 class="card-title">Dean Academics</h6>
+        <p class="card-text" style="font-size: 1rem;padding: 0px;">Our Institutions are characterized by the quality of its education across a broad range of disciplines from school to post graduation. It is a seat of higher learning, with an international focus on all its activities and standards.</p>
+        </div>
+
+      </div>
+
+
+
+
+
+
+  
+  
+</div>
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4" >
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Footer links -->
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold " ><img src="pics/logo1.png"></h6>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.281277327018!2d77.5118169153264!3d12.825091890952086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae41057dd66abf%3A0xfda823a3ca1775ea!2sDayananda%20Sagar%20Academy%20of%20Technology%20and%20Management%20(DSATM)!5e0!3m2!1sen!2sin!4v1572345664996!5m2!1sen!2sin" width="300" height="200" frameborder="0" style="border:0;margin-right:-30; margin-top:6;" allowfullscreen=""></iframe>
+        <!--<p style="color:white;" ><br/><small>Dayananda Sagar Academy of Technology and Management (TC) is approved by All India Council for Technical Education (AICTE), Govt. of India and affiliated to Visvesvaraya Technological University.</small> </p>-->
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-4 mx-auto mt-3" ><br/>
+        <h6 class="text-uppercase mb-4 font-weight-bold">Departments</h6>
+<br/>
+          <a href="civil.html">Civil Engineering</a><br/>
+<a href="cse.html">Computer Science Engineering</a><br/>
+<a href="eee.html">Electrical & Electronics Engineering</a><br/>
+    <a href="ec.html">Electronics and Communication Engineering</a><br/>
+    <a href="ise.html">Information Science & Engineering</a><br/>
+    <a href="me.html">Mechanical Engineering</a><br/>
+    <a href="maths.html">Mathematics Department</a><br/>
+    <a href="physics.html">Physics Department</a>
+
+   
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-4 mx-auto mt-3"><br/>
+        <h6 class="text-uppercase mb-4 font-weight-bold">Quick links</h6><br/>
+<a href="contactus.html">Contact Us</a> <br/>
+<a href="policy.html">Institution Policy</a><br/>
+<a href="servicerules.html">DSATM Service Rules</a><br/>
+<a href="mandatorydisclosure.html">Mandatory Disclosure</a><br/>
+<a href="http://www.dsatm.edugrievance.com/">Grievance Redressal portal</a><br/>
+<a href="approvals.html">Accreditation & other approvals</a><br/>
+<a href="audit.html">Audited Statements</a><br/>
+<a href="nirf.html">NIRF</a>
+     
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-auto col-xl-auto" >
+
+        <!--Copyright-->
+        <p class="text-center text-md-left"><br/>© 2019 Copyright:
+ 
+            <strong> Richul N. Prasad , Sumanth R.</strong>
+ &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
+
+           <a id="scale1" href="https://www.facebook.com/DSIorganization" class="fa fa-facebook"></a> &nbsp
+<a id="scale1" href="https://twitter.com/DSIorganization" class="fa fa-twitter"></a> &nbsp
+<a id="scale1" href="https://plus.google.com/112592840884555805844" class="fa fa-google"></a> &nbsp
+
+<a id="scale1" href="https://www.youtube.com/user/DSIorganization" class="fa fa-youtube"></a> &nbsp
+<a  id="scale1" href="https://www.instagram.com/dsatmesperanza/?hl=en" class="fa fa-instagram"></a> &nbsp
+        </p>
+ 
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>

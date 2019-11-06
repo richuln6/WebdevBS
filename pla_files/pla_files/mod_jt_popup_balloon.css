@@ -1,0 +1,17 @@
+/*-- http://www.joomtut.com --*/
+#popup_wrap{position:fixed;z-index:99999;}
+#popup_inner{background: none;width:100%;height:100%;padding:0px;overflow:hidden;}
+#popup_toolbar{display:block;width:100%;line-height:16px; font-size:11px;}
+#title {margin:0 2px;float:left;}
+#title a{text-decoration:none;}
+#popup_button{float:right;padding:0;margin:0;list-style:none;height:17px;}
+#popup_button li{background:none;padding:0;display:inline;}
+#popup_button li a{background:url(button.gif);width:20px;height:0;padding-top:15px;float:left;color:#fff;}
+#popup_button li a.popup_close{background-position: 0px 0px;}
+#popup_button li a.popup_close:hover{background-position: 0 -16px;}
+#popup_button li a.popup_min{background-position: -20px 0;}
+#popup_button li a.popup_min:hover{background-position: -20px -16px;}
+#popup_button li a.popup_max{background-position: -40px 0;}
+#popup_button li a.popup_max:hover{background-position: -40px -16px;}
+#popup_content{display:block; margin:0; padding:0;overflow:hidden;z-index:999999;}
+#popup_content div,#popup_content div div{margin:0;padding:0;text-align:left;}

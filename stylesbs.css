@@ -111,7 +111,8 @@ width:1000;
   color: white;
 }
 #carouselExampleControls{
-height:500;}
+height:570;
+}
 .card-title{
 margin-top:30;
 text-align:center;
@@ -174,6 +175,28 @@ color:#005387;
 background-color:#ffffff;
 color:#005387;
 transform:scale(1.2);
+}
+.w-10 {
+      width: 3rem
+    }
+
+#dept{
+box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+color:#005387;
+}
+#dept:hover{
+text-decoration:none; 
+cursor:pointer;
+transform:scale(1.03);
+}
+#abbtn{
+border-width:3;
+border-color:#ffffff;
+background-color:Transparent;
+}
+#abbtn:hover{
+color:#005387;
+background-color:#ffffff;
 }
 
 
