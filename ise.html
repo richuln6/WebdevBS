@@ -13,7 +13,9 @@
 box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
 
 }
-
+#gal:hover{
+transform:scale(1.1);
+}
 </style>
 <script>
 $(function () {
@@ -110,6 +112,14 @@ Qualification: . BE, M.Tech, Ph.D,
     <a class="nav-link" id="profile-tab-md" data-toggle="tab" href="#profile-md" role="tab" aria-controls="profile-md"
       aria-selected="false">Team</a>
   </li>
+<li class="nav-item">
+    <a class="nav-link" id="inf-tab-md" data-toggle="tab" href="#inf-md" role="tab" aria-controls="inf-md"
+      aria-selected="false">Infrastructure</a>
+  </li>
+<li class="nav-item">
+    <a class="nav-link" id="ach-tab-md" data-toggle="tab" href="#ach-md" role="tab" aria-controls="ach-md"
+      aria-selected="false">Achievements</a>
+  </li>
   <li class="nav-item">
     <a class="nav-link" id="pla-tab-md" data-toggle="tab" href="#pla-md" role="tab" aria-controls="pla-md"
       aria-selected="false">Placement</a>
@@ -133,8 +143,10 @@ Qualification: . BE, M.Tech, Ph.D,
 
 <div class="tab-content card pt-5" id="myTabContentMD">
   <div class="tab-pane fade show active" id="home-md" role="tabpanel" aria-labelledby="home-tab-md">
-   <h3>About The Department</h3>
+<div class="container" style="text-align:left;">   
+<h3>About The Department</h3>
     <p class="lead">Intake of the Department = 180</p>
+</div>
  
   <div class="container" style="text-align:left;">
     <h3>Vision</h3>
@@ -585,7 +597,16 @@ Qualification: M.Tech
   </div>
 
 
-<div class="tab-pane fade" id="pla-md" role="tabpanel" aria-labelledby="pla-tab-md">
+<div class="tab-pane fade" id="inf-md" role="tabpanel" aria-labelledby="inf-tab-md" style="text-align:center;">
+    <h3>Infrastructure :</h3>
+<embed src="pdfs/infra.pdf" style="width:100%;height:800;padding:20;">
+  </div>
+<div class="tab-pane fade" id="ach-md" role="tabpanel" aria-labelledby="ach-tab-md" style="text-align:center;">
+    <h3>Achievements :</h3>
+<embed src="pdfs/achievements.pdf" style="width:100%;height:800;padding:20;">
+  </div>
+
+<div class="tab-pane fade" id="pla-md" role="tabpanel" aria-labelledby="pla-tab-md" style="text-align:center;">
     <h3>Placements :</h3>
 <img src="pics/isepla.png" style="width:100%;margin-top:50;"/>
   </div>
@@ -594,9 +615,11 @@ Qualification: M.Tech
 
 
   <div class="tab-pane fade show" id="csi-md" role="tabpanel" aria-labelledby="csi-tab-md">
+<div class="container" style="text-align:left;">
    <h3>CSI-Student Chapter</h3>
-    <p class="lead">In keeping with its tradition of taking the lead in all student related activities, the Department has formed a CSI student’s branch which regularly organizes various student centric activities in the core areas of ISE with the support of CSI Bangalore chapter to promote and develop skills on emerging technologies among students. Our students are also eligible to publish articles in CSI communication & Journals.
+    <p class="lead">In keeping with its tradition of taking the lead in all student related activities, the Department has formed a CSI student's branch which regularly organizes various student centric activities in the core areas of ISE with the support of CSI Bangalore chapter to promote and develop skills on emerging technologies among students. Our students are also eligible to publish articles in CSI communication & Journals.
 </p>
+</div>
 
 <div class="container" style="text-align:left;">
     <h3>Following are the events organized :</h3>
@@ -637,35 +660,35 @@ Qualification: M.Tech
 <div class="container" style="text-align:center;">
   <div class="row">
     <div class="col-md-4"><a href="pics/ise1.jpg" data-size="1600x1067">
-          <img src="pics/ise1.jpg" style="width:300;height:150;margin-top:20;" class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise1.jpg" style="width:300;height:150;margin-top:20;" class="img-fluid z-depth-1">
         </a></div>
     <div class="col-md-4"><a href="pics/ise2.jpg" data-size="1600x1067">
-          <img src="pics/ise2.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise2.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
         </a></div>
     <div class="col-md-4"><a href="pics/ise3.jpg" data-size="1600x1067">
-          <img src="pics/ise3.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise3.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
         </a></div>
   </div>
  <div class="row">
     <div class="col-md-4"><a href="pics/ise4.jpg" data-size="1600x1067">
-          <img src="pics/ise4.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise4.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
         </a></div>
     <div class="col-md-4"><a href="pics/ise5.jpg" data-size="1600x1067">
-          <img src="pics/ise5.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise5.jpg" style="width:300;height:150;margin-top:20;"  class="img-fluid z-depth-1">
         </a></div>
     <div class="col-md-4"><a href="pics/ise6.jpg" data-size="1600x1067">
-          <img src="pics/ise6.jpg" style="width:300;height:150;margin-top:20;" class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise6.jpg" style="width:300;height:150;margin-top:20;" class="img-fluid z-depth-1">
         </a></div>
   </div>
  <div class="row">
     <div class="col-md-4"><a href="pics/ise7.jpg" data-size="1600x1067">
-          <img src="pics/ise7.jpg" style="width:300;height:150;margin-top:20; " class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise7.jpg" style="width:300;height:150;margin-top:20; " class="img-fluid z-depth-1">
         </a></div>
     <div class="col-md-4"><a href="pics/ise8.jpg" data-size="1600x1067">
-          <img src="pics/ise8.jpg" style="width:300;height:150;margin-top:20; " class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise8.jpg" style="width:300;height:150;margin-top:20; " class="img-fluid z-depth-1">
         </a></div>
     <div class="col-md-4"><a href="pics/ise9.jpg" data-size="1600x1067">
-          <img src="pics/ise9.jpg" style="width:300;height:150;margin-top:20;" class="img-fluid z-depth-1">
+          <img id="gal" src="pics/ise9.jpg" style="width:300;height:150;margin-top:20;" class="img-fluid z-depth-1">
         </a></div>
   </div>
 </div>
@@ -677,6 +700,7 @@ Qualification: M.Tech
 
 
   <div class="tab-pane fade" id="contact-md" role="tabpanel" aria-labelledby="contact-tab-md">
+<div class="container" style="text-align:left;">
     <h3>Contact Details :</h3>
 <p class="lead" style="white-space: pre-wrap;">
 <h5>Dr. Sumithra Devi K.A, B.E, M.Tech., Ph.D</h5>
@@ -686,7 +710,7 @@ UDAYAPURA, Opp. ART OF LIVING, KANAKAPURA ROAD,BENGALURU-560082<br/>
 Mail ID: deanacademics@dsatm.edu.in<br/>
 Phone No.: 080-28432909</p>
   </div>
-
+</div>
 
 </div>
     
@@ -695,7 +719,7 @@ Phone No.: 080-28432909</p>
 </div></div>
 
 
-
+</div>
 
 
 
